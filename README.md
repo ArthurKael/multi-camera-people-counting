@@ -4,9 +4,9 @@ Real-time image stitching and people counting using 2 cameras, SIFT, Homography,
 
 ## Overview
 
-This project uses two fixed USB cameras to create a panoramic stitched view in real time and then performs YOLO-based person detection on the stitched output.
+This project captures frames from two fixed USB cameras, stitches them into a single panorama, and performs YOLO-based person detection on the stitched output.
 
-The current `main.py` in this repository is the improved version of the project, including corrected feature matching and YOLO-based people counting.
+The system uses SIFT feature extraction, KNN matching with Lowe Ratio Test, homography estimation with RANSAC, and real-time people counting on the final stitched frame.
 
 ## Features
 
