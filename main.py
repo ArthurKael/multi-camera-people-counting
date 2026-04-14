@@ -405,7 +405,7 @@ def main():
         print('Hướng dẫn sử dụng:')
         print('1. Đảm bảo có ít nhất 2 camera được kết nối')
         print('2. Cài dependencies: pip install ultralytics opencv-python numpy')
-        print('3. Chạy: python main_improved.py --cameras 0 1')
+        print('3. Chạy: python main.py --cameras 0 1')
         print('4. Đảm bảo các camera có vùng overlap để calibration')
         print('5. Hệ thống sẽ stitch trước, sau đó YOLO đếm số người trên ảnh ghép')
 
