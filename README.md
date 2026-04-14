@@ -93,4 +93,4 @@ python main.py --cameras 0 1 --yolo-model yolov8n.pt --person-conf 0.35 --detect
 
 ## Author
 
-Project developed for computer vision study and real-time multi-camera stitching experiments.
+Nguyen Van Khang
